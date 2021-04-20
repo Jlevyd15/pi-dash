@@ -1,0 +1,26 @@
+
+.Navbar-container {
+  display: flex;
+}
+
+.Navbar-tab {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: solid 2px white;
+  border-bottom: none;
+  width: 33%;
+}
+
+.Navbar-tab-selected {
+ background-color:rgba(255, 255, 255, 0.25);
+}
+
+.Navbar-button {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  font: inherit;
+  font-size: inherit;
+}

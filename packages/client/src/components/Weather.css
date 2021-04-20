@@ -1,0 +1,51 @@
+
+.Weather-container {
+  display: flex;
+  justify-content: baseline;
+  padding: 20px;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+
+.Weather-current-temp {
+  font-size: 6rem;
+}
+
+.Weather-spacer-left-5 {
+  margin-left: 5px;
+}
+
+.Weather-spacer-right-5 {
+  margin-right: 5px;
+}
+
+.Weather-spacer-left-20 {
+  margin-left: 20px;
+}
+
+.Weather-spacer-right-20 {
+  margin-right: 20px;
+}
+
+.Weather-spacer-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.Weather-flexcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Weather-background-image {
+  height: 30px;
+}
+
+.Weather-daily-list {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather-daily-listItem {
+  display: inline-block;
+}

@@ -1,0 +1,23 @@
+
+.Spotify-login-btn {
+  font-size: 12px;
+  border-radius: 100px;
+  font-weight: bold;
+  padding: 11px 32px 9px  ;
+  background-color: #1db954;
+  color: white;
+  text-decoration: none;
+
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+.Spotify-login-btn:hover {
+  color: #fff;
+  background-color: #1ed760;
+}

@@ -1,0 +1,104 @@
+.Spotifyplayer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Spotifyplayer-image-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+
+}
+
+.Spotifyplayer-close-button {
+  color: white;
+  width: 48px;
+  height: 48px;
+  border: solid 1px white;
+  padding: 0;
+  background-color: transparent;
+}
+
+.Spotifyplayer-image-button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.Spotifyplayer-song-image {
+  width: 95%;
+}
+
+.Spotifyplayer-songname-container {
+  text-align: left;
+}
+
+.Spotifyplayer-song-name {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-right: 5px;
+}
+
+.Spotifyplayer-song-artist {
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding-right: 5px;
+}
+
+
+
+.Spotifyplayer-container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Spotifyplayer-container-buttons-playback {
+  margin-bottom: 40px;
+}
+
+.Spotifyplayer-container-buttons-volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Spotifyplayer-icon {
+  height: 52px;
+  width: 52px;
+  padding: 20px;
+}
+
+.Spotifyplayer-icon--small {
+  height: 24px;
+  width: 24px;
+  padding: 20px;
+}
+
+.Spotifyplayer-icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.Spotifyplayer-recentplayed-container {
+  align-self: flex-start;
+  text-align: left;
+  flex: 1;
+}
+
+.Spotifyplayer-recentplayed-title {
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+.Spotifyplayer-recentplayed-list {
+  list-style-type: none;
+  margin: 0px;
+  font-size: 14px;
+  padding: 0px;
+}
